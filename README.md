@@ -102,25 +102,25 @@ src/
    ```
 
 # Roadmap
-- ![Inicializate solution](docs/vertical-strike.svg)
-- Configure Clean Architecture
-- Implement Authentication
-- User Management
-- Dashboard
-- Customer Management
-- Supplier Management
-- Inventory Module
-- Sales Module
-- Purchasing Module
-- Invoicing
-- Financial Module
-- PDF Reporting
-- Excel Export
-- Audit Logging
-- Banking Integration
-- Docker Support
-- Azure Deployment
-- CI/CD Pipeline
+- [x] Initialize solution
+- [ ] Configure Clean Architecture
+- [ ] Implement Authentication
+- [ ] User Management
+- [ ] Dashboard
+- [ ] Customer Management
+- [ ] Supplier Management
+- [ ] Inventory Module
+- [ ] Sales Module
+- [ ] Purchasing Module
+- [ ] Invoicing
+- [ ] Financial Module
+- [ ] PDF Reporting
+- [ ] Excel Export
+- [ ] Audit Logging
+- [ ] Banking Integration
+- [ ] Docker Support
+- [ ] Azure Deployment
+- [ ] CI/CD Pipeline
 
 # Contributing
 This project is primarily intended as a portfolio and learning project.
