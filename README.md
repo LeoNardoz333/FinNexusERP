@@ -127,4 +127,4 @@ This project is primarily intended as a portfolio and learning project.
 Suggestions, issues, and pull requests are welcome.
 
 # License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License.
