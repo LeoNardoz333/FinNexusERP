@@ -1,0 +1,44 @@
+# Build
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# User settings
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# Database local files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Test
+TestResults/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
