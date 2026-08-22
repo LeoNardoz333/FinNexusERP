@@ -1,5 +1,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using FinNexus.Application.Common.Interfaces.Persistence;
+using FinNexus.Infrastructure.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinNexus.Infrastructure
 {
@@ -9,6 +12,12 @@ namespace FinNexus.Infrastructure
             this IServiceCollection services,
             IConfiguration configuration)
         {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
+            );
+
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+
             return services;
         }
     }

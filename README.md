@@ -103,7 +103,7 @@ src/
 
 # Roadmap
 - [x] Initialize solution
-- [ ] Configure Clean Architecture
+- [x] Configure Clean Architecture
 - [ ] Implement Authentication
 - [ ] User Management
 - [ ] Dashboard
